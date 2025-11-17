@@ -1,12 +1,12 @@
 # Define the Room class.
 
 class Room:
-"""
-    Représente une pièce dans un jeu d'aventure textuel.
+    """
+Représente une pièce dans un jeu d'aventure textuel.
 
-    Cette classe permet de définir un espace du jeu, avec un nom, une description
-    et des sorties menant vers d'autres pièces. Elle facilite la navigation dans
-    l'environnement grâce à ses méthodes de consultation des sorties.
+Cette classe permet de définir un espace du jeu, avec un nom, une description
+et des sorties menant vers d'autres pièces. Elle facilite la navigation dans
+l'environnement grâce à ses méthodes de consultation des sorties.
 
     Attributs
     ---------
@@ -42,7 +42,7 @@ class Room:
     True
     >>> "nord" in salle.get_exit_string()
     True
-"""
+    """
 
     # Define the constructor. 
     def __init__(self, name, description):

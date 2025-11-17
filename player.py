@@ -1,7 +1,7 @@
 # Define the Player class.
 class Player():
 
-"""
+    """
     Représente un joueur dans le jeu d'aventure.
 
     Cette classe permet de définir le personnage jouable, notamment son nom
@@ -37,7 +37,7 @@ class Player():
     True
     >>> p.current_room.name
     'Cuisine'
-"""
+    """
 
     # Define the constructor.
     def __init__(self, name):
